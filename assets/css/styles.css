@@ -823,6 +823,10 @@ body.dark-theme {
     transition: color 0.4s;
 }
 
+.projects__description b {
+    color: var(--title-color);
+}
+
 .projects__link i {
     font-size: 1rem;
     color: var(--title-color);
