@@ -16,7 +16,7 @@
 
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
-    --body-font: "Bai Jamjuree", sans-serif;
+    --body-font: 'Bai Jamjuree', sans-serif;
     --biggest-font-size: 2.5rem;
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.25rem;
@@ -206,7 +206,7 @@ body.dark-theme {
 
 .section__title-1::after,
 .section__title-2::after {
-    content: "";
+    content: '';
     width: 40px;
     height: 28px;
     background-color: hsla(14, 98%, 50%, 0.2);
@@ -229,7 +229,7 @@ body.dark-theme {
 }
 
 .geometric-box::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 16px;
     height: 16px;
@@ -326,7 +326,7 @@ body.dark-theme {
 
 .nav__name::after,
 .nav__name::before {
-    content: "";
+    content: '';
     width: 40px;
     height: 1px;
     background-color: var(--text-color-light);
@@ -355,7 +355,7 @@ body.dark-theme {
 }
 
 .nav__link::after {
-    content: "";
+    content: '';
     width: 0;
     height: 2px;
     background-color: var(--white-color);
@@ -485,7 +485,7 @@ body.dark-theme {
 }
 
 .home__social-link:hover {
-    background-color: var(--black-color);
+    background-color: var(--first-color);
 }
 
 .home__info {
@@ -665,7 +665,7 @@ body.dark-theme {
 }
 
 .about__description::after {
-    content: "";
+    content: '';
     width: 20px;
     height: 1px;
     background-color: var(--title-color);
@@ -793,7 +793,7 @@ body.dark-theme {
 }
 
 .projects__subtitle::after {
-    content: "";
+    content: '';
     width: 20px;
     height: 1px;
     background-color: var(--text-color);
@@ -1299,7 +1299,7 @@ body.dark-theme {
         padding-left: 3rem;
     }
     .home__description::after {
-        content: " ";
+        content: ' ';
         width: 32px;
         height: 2px;
         background-color: var(--title-color);
